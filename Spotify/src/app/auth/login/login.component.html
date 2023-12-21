@@ -1,0 +1,8 @@
+<h5>Login</h5>
+<form>
+  <input type="email" [(ngModel)]="loginData.email"
+  name="email" class="form-control" placeholder="Email">
+  <input type="password" [(ngModel)]="loginData.password"
+  name="password" class="form-control" placeholder="Password">
+  <button (click)="save()" class="btn btn-primary">Login</button>
+</form>

@@ -10,7 +10,8 @@ import { LibraryComponent } from './library/library.component';
   declarations: [
     AppComponent,
     NavbarComponent,
-    LibraryComponent
+    LibraryComponent,
+
   ],
   imports: [
     BrowserModule,

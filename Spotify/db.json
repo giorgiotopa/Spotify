@@ -1,19 +1,10 @@
 {
-  "posts": [
+  "users": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "email": "mario@rossi.it",
+      "password": "$2a$10$.Wu9d4qRKtYRGSuumI7yauBfUhJA5F1eOCgQ3/yAQ7vmIJg76ED5a",
+      "nome": "Mario",
+      "id": 1
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

@@ -6,13 +6,13 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LibraryComponent } from './library/library.component';
 import { HttpClientModule } from '@angular/common/http';
+import { AuthComponent } from './auth/auth.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
-    LibraryComponent,
-
+    // NavbarComponent,
+    // LibraryComponent,
   ],
   imports: [
     BrowserModule,

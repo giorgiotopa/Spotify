@@ -1,16 +1,19 @@
-<div class="container">
-
-  <h1>Accedi o registrati</h1>
-
-  <div class="row align-items-end">
-    <div class="col-6">
-      <a routerLink="/auth/login" class="btn btn-primary">Accedi</a>
+<div class="bg-black text-light containerAll">
+  <div class="row">
+    <div class="col-5 mt-3">
+      <app-navbar></app-navbar>
+      <app-library></app-library>
     </div>
-    <div class="col-6">
-      <h3>Non sei registrato?</h3>
-      <a routerLink="/auth/register" class="btn btn-primary">Registrati</a>
+    <div class="col-7 mt-3">
+      <div class="container d-flex justify-content-end align-items-center">
+        <p routerLink="/auth/register" class="">Iscriviti</p>
+        <p routerLink="/auth/login" class="btn btn-light fw-bold text-black rounded-5 px-4 py-2 mx-5">Accedi</p>
+      </div>
+
+
+      <router-outlet></router-outlet>
     </div>
   </div>
-
-  <router-outlet></router-outlet>
 </div>
+
+
